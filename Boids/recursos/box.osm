@@ -1,0 +1,20 @@
+<oe_scene>
+    <sceneManager type="0" />
+    <bkgcolor r="0" g="0" b="0" />
+    <lightColor r="0.5" g="0.5" b="0.5" />
+    <shadowTechnique type="0" tex_size="512" tex_count="1">
+        <color r="0" g="0" b="0" />
+    </shadowTechnique>
+    <entities>
+        <entity name="Box" hidden="false" filename="Box.mesh" CastShadows="yes" ReceiveShadows="yes">
+            <position x="0" y="0.00090241432" z="-2.1816248e-008" />
+            <rotation x="0" y="0" z="-0" w="-1" />
+            <scale x="1" y="1" z="1" />
+        </entity>
+        <entity name="SueloOceano" hidden="false" filename="SueloOceano.mesh" CastShadows="yes" ReceiveShadows="yes">
+            <position x="0.0011958256" y="-0.57273144" z="-0.0014165872" />
+            <rotation x="0" y="0" z="-0" w="-1" />
+            <scale x="1" y="1" z="1" />
+        </entity>
+    </entities>
+</oe_scene>

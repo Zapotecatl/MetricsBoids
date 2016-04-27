@@ -1,0 +1,59 @@
+Examples/Bubble
+{
+	quota	2000
+	material	Examples/Burbuja
+	particle_width	1
+	particle_height	1
+	cull_each	true
+	renderer	billboard
+	sorted	false
+	local_space	false
+	billboard_type	point
+
+	emitter Box
+	{
+		angle	15
+		colour	1 1 1 1
+		colour_range_start	1 1 1 1
+		colour_range_end	1 1 1 1
+		direction	0 -1 0
+		emission_rate	80
+		position	0 100 0
+		velocity	80
+		velocity_min	60
+		velocity_max	120
+		time_to_live	3
+		time_to_live_min	0.5
+		time_to_live_max	3
+		duration	0
+		duration_min	0
+		duration_max	0
+		repeat_delay	0
+		repeat_delay_min	0
+		repeat_delay_max	0
+		width	100
+		height	100
+		depth	1
+	}
+
+	affector DeflectorPlane
+	{
+		plane_point	0 -50 0
+		plane_normal	0 1 0
+		bounce	2
+	}
+
+	affector DirectionRandomiser
+	{
+		randomness	100
+	}
+        affector Scaler
+{
+
+rate 1
+
+
+}
+
+}
+
