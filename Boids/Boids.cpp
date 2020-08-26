@@ -17,7 +17,6 @@ size_t CBoid::minNeighbors, CBoid::maxNeighbors, CBoid::totalNeighbors;
 CBoid::CBoid()
 {
     proximityToken = NULL;
-
     reset ();
 }
 
