@@ -22,7 +22,6 @@ CBoid::CBoid()
 
 CBoid::CBoid(ProximityDatabase& pd)
 {
-
     // allocate a token for this boid in the proximity database
     proximityToken = NULL;
     newPD (pd);
